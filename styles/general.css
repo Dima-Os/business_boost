@@ -1,0 +1,26 @@
+/* Fonts */
+:root {
+    --main-font: 'Lato', sans-serif;
+    --secondary-font: 'Open Sans', sans-serif;
+
+    --main-color: rgb(255, 187, 66);
+}
+
+html {
+    box-sizing: border-box;
+
+    font-family: var(--main-font);
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    min-width: 73.125rem;
+    margin: 0 auto;
+    ;
+}
