@@ -4,13 +4,14 @@
     --secondary-font: 'Open Sans', sans-serif;
 
     --main-color: rgb(255, 187, 66);
+    --secondary-color: rgb(57, 75, 81);
 }
 
 html {
     box-sizing: border-box;
-
     font-family: var(--main-font);
 
+    color: var(--secondary-color);
 }
 
 *,
@@ -19,8 +20,13 @@ html {
     box-sizing: inherit;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
-    min-width: 73.125rem;
+    max-width: 73.125rem;
     margin: 0 auto;
-    ;
 }

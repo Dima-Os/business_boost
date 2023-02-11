@@ -1,3 +1,6 @@
+/* -----Normalize styles----- */
 @import url(./normalize.css);
-
+/* -----General styles----- */
 @import url(./general.css);
+/* -----Header styles----- */
+@import url(./header.css);
