@@ -4,3 +4,9 @@
 @import url(./general.css);
 /* -----Header styles----- */
 @import url(./header.css);
+
+@import url(./section.css);
+
+@import url(./section-banner.css);
+
+@import url(./form.css);

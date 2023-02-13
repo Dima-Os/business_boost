@@ -1,0 +1,16 @@
+.section__banner {
+    text-align: center;
+    background-color: rgb(112, 157, 202);
+
+    padding-bottom: 21.625rem;
+}
+
+.baner__section-heading {
+    color: rgb(255, 255, 255);
+}
+
+.banner__section-description {
+    margin-bottom: 20px;
+
+    color: rgb(255, 255, 255);
+}
