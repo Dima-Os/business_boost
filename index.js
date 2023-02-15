@@ -9,7 +9,6 @@ const slider = new Swiper(".slider", {
   direction: "horizontal",
   loop: true,
 
-  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
   },
