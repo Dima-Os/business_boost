@@ -1,4 +1,8 @@
 .section__banner {
+
+    position: relative;
+
+
     text-align: center;
     background-color: rgb(112, 157, 202);
 
