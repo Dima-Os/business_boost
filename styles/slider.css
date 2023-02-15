@@ -1,0 +1,58 @@
+.sider__container {
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 40.4375rem;
+    height: 21.4375rem;
+
+    background-image: url(../img/slider/sviper-body.png);
+}
+
+.slider {
+    position: absolute;
+
+    top: 0.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 28.4375rem;
+    height: 16.5rem;
+
+}
+
+.slider__pagination.slider__bullets {
+    bottom: -40px;
+}
+
+.slider__bullets>span {
+    width: 1rem;
+    height: 1rem;
+
+    border-style: solid;
+    border-width: 0.1875rem;
+    border-color: rgb(28, 168, 221);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.test {
+    border-color: brown;
+}
+
+
+
+/* .Ellipse_1_copy_2 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(222, 223, 224);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 862px;
+    top: 765px;
+    width: 16px;
+    height: 15px;
+    z-index: 304;
+} */
