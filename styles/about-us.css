@@ -1,0 +1,51 @@
+.section__about-us {
+    position: relative;
+
+    color: rgb(255, 255, 255);
+    background-color: var(--main-color);
+
+}
+
+.section__about-us::before {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 50%;
+
+    content: "";
+
+    background: no-repeat right url(../img/about-us_bkgr.jpg);
+    background-size: cover;
+}
+
+.about-us__content {
+    padding-left: calc(50% + 5rem);
+
+    text-align: left;
+}
+
+
+
+.section-link {
+
+    padding: 1rem 2rem;
+
+    font-size: 0.875rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+
+    border: 0.0625rem solid rgb(231, 173, 72);
+    border-radius: 2px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+
+    transition: transform 300ms ease-in-out;
+}
+
+.section-link:hover {
+    transform: scale(1.05);
+}

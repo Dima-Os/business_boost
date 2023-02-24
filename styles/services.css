@@ -1,0 +1,67 @@
+.services__section-description {
+    margin-bottom: 5.625rem;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.services-list__item {
+
+    padding-left: 5.125rem;
+    padding-right: 0.9375rem;
+    flex-basis: 585px;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+
+.services-list__item:not(:nth-last-child(-n+2)) {
+    margin-bottom: 5.125rem;
+}
+
+.icons {
+    background-image: url("../img/ico/clock.png");
+}
+
+.design {
+    background-image: url("../img/ico/gear.png");
+}
+
+.contact-form {
+    background-image: url("../img/ico/study.png");
+}
+
+.retina {
+    background-image: url("../img/ico/rocket.png");
+}
+
+.code {
+    background-image: url("../img/ico/peace.png");
+}
+
+.page-design {
+    background-image: url("../img/ico/dollar.png");
+}
+
+
+.services-list__caption {
+
+    margin-bottom: 1.25rem;
+
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.services-list__description {
+
+    text-align: left;
+
+    font-family: var(--secondary-font);
+    font-size: 0.8125rem;
+    line-height: 1.375rem;
+}

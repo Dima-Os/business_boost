@@ -1,14 +1,20 @@
 /* -----Normalize styles----- */
-@import url(./normalize.css);
+@import url("./normalize.css");
 /* -----General styles----- */
-@import url(./general.css);
+@import url("./general.css");
 /* -----Header styles----- */
-@import url(./header.css);
+@import url("./header.css");
 
-@import url(./section.css);
+@import url("./section.css");
 
-@import url(./section-banner.css);
+@import url("./section-banner.css");
 
-@import url(./form.css);
+@import url("./form.css");
 
-@import url(./slider.css);
+@import url("./slider.css");
+
+@import url("./services.css");
+
+@import url("./about-us.css");
+
+@import url("./footer.css");
